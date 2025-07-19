@@ -74,12 +74,9 @@ form button{
 }
 
 #search-result{
-    width: 80%;
-    margin: 100px auto 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 #search-result img{
