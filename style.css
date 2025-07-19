@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chewy', cursive;
+    font-weight:10;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: black;
+    color: rgb(227, 202, 202);
+
+
+}
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: pink ;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: black;
+    font-size: 18px;
+    padding: 0 30px;
+
+}
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background: rgb(206, 98, 116);
+    color: black;
+    outline: 0;
+    font-size: 18px;
+    border: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+::placeholder{
+    color: rgb(108, 78, 83);
+    font-size: 18px;
+
+}
+
+#show-more-btn{
+    padding: 10px 20px;
+    height: 100%;
+    background: rgb(206, 98, 116);
+    color: black;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+}
+
+#search-result img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius:5px;
+
+}
+
+.searchbtn:hover{
+    background-color: rgb(27, 178, 50);
+
+}
+
+.searchbtn:active{
+    background-color: rgb(68, 123, 216);
+}
+
+
+.footer{
+    background-color: pink;
+    color: black;
+    text-align: left;
+    padding:20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
